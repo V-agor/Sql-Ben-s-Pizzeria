@@ -22,11 +22,7 @@ This project demonstrates a full data analytics workflow using:
 
 - Note the database schema was first designed in QuickDBD.
 
-- To produce a viable structure a comprehensive inderstanding of the project objective and stakeholder requirements were needed
 
-- Clientsoften provide a vague outline and it falls upon us to bridge that gap
-
-- To import the data i made use of the import wizard
 
 ### 2. SQL Querying & Analysis
 - Use `analysis_queries.sql` for cleaning and transformations.
@@ -85,6 +81,19 @@ From this we can derive the necessary relationships between our tables
 
 The software:Quick DBD was used for the entity relationship diagram below
 <img width="1920" height="907" alt="Screenshot (1021)" src="https://github.com/user-attachments/assets/40a1ccc7-9207-4b0d-8dcf-fdd7f8e557ff" />
+
+To import the csv files we made us of the import wizard: 
+
+<img width="780" height="641" alt="Screenshot (1143)" src="https://github.com/user-attachments/assets/68fc8f3b-7d48-49cc-8489-57d3ae349a6c" />
+
+ It works by specifying the location of the file and plugging in the values into the tables we already created
+
+ Now that our tables are all set up we can proceed on to querying, this is the criteria we will try to fit:
+
+ <img width="1041" height="671" alt="Screenshot (1142)" src="https://github.com/user-attachments/assets/c4d7bff8-fe2e-45ad-97f9-57782bd26aa4" />
+
+ 
+
 
 
 
