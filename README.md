@@ -1,8 +1,5 @@
 # Data Analyst Portfolio Project: SQL to Interactive Dashboard
 
-**A step-by-step walkthrough of designing a SQL database and transforming data into an interactive BI dashboard.**
-
----
 
 ##  Project Overview
 This project demonstrates a full data analytics workflow using:
@@ -14,15 +11,22 @@ This project demonstrates a full data analytics workflow using:
 ##  Technologies Used
 - MySQL
 - Power BI 
-- Python
+
 
 
 ---
 ##  Setup & Steps
 
 ### 1. Database Setup
-- Run `setup_database.sql` to create the relational schema and import the dataset.
 - Populate tables with relevant data—structure tables to support downstream analysis.
+
+- Note the database schema was first designed in QuickDBD.
+
+- To produce a viable structure a comprehensive inderstanding of the project objective and stakeholder requirements were needed
+
+- Clientsoften provide a vague outline and it falls upon us to bridge that gap
+
+- To import the data i made use of the import wizard
 
 ### 2. SQL Querying & Analysis
 - Use `analysis_queries.sql` for cleaning and transformations.
