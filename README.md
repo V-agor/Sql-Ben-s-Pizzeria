@@ -88,9 +88,16 @@ To import the csv files we made us of the import wizard:
 
  It works by specifying the location of the file and plugging in the values into the tables we already created
 
- Now that our tables are all set up we can proceed on to querying, this is the criteria we will try to fit:
+ Now that our tables are all set up we can proceed on to querying, this is the criteria we will try to fit-this is our first dasboard :
 
  <img width="1041" height="671" alt="Screenshot (1142)" src="https://github.com/user-attachments/assets/c4d7bff8-fe2e-45ad-97f9-57782bd26aa4" />
+
+ The orders and item tables ate joined using a LEFT JOIN  on the fied item_id
+
+ The criteria for our second dashboard is stipulated below:
+
+ <img width="1845" height="969" alt="Screenshot (1190)" src="https://github.com/user-attachments/assets/471c3985-2c6f-49ad-811f-6b5d1c880258" />
+
 
  
 
