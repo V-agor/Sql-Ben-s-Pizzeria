@@ -18,30 +18,21 @@ This project demonstrates a full data analytics workflow using:
 ##  Setup & Steps
 
 ### 1. Database Setup
-- Populate tables with relevant data—structure tables to support downstream analysis.
+- Populate tables with relevant data
 
 - Note the database schema was first designed in QuickDBD.
 
 
 
 ### 2. SQL Querying & Analysis
-- Use `analysis_queries.sql` for cleaning and transformations.
-- Example queries:
-  - Filtering records
-  - Aggregating metrics (SUM, AVG, COUNT)
-  - Joining related tables
-  - Calculated fields for business logic
+- The sql scripts were devided by the business requirements each dashboard wants to display.
 
 ### 3. Data Preparation for BI
-- Export refined tables or queries as CSV.
-- Ensure clean, well-formatted data: column names, types, date formatting, etc.
+- Export  queries as CSV
 
 ### 4. Dashboard Creation
-- Import cleaned data into your BI tool.
+- Import data into your PowerBI.
 - Design visuals:
-  - KPIs and summary metrics
-  - Trend charts (time series)
-  - Categorical breakdowns (e.g., by product, region)
 - Enable interactivity: filters, drill-downs, click-throughs.
 ---
 ##  Key Learnings
@@ -56,7 +47,7 @@ This is our client's brief.
 Its a rough outine of our main objectives: This however is not sufficient,its up to us to address the spececifities 
 of the business objectives
 
-The three main areas of focus, orders, stock control and staff are  3 tables.
+The three main areas of focus: orders, stock control and staff are  3 tables.
 Their relationships need to be established by us
 
 For the orders table some priliminary fields are provided:
@@ -82,7 +73,7 @@ From this we can derive the necessary relationships between our tables
 The software:Quick DBD was used for the entity relationship diagram below
 <img width="1920" height="907" alt="Screenshot (1021)" src="https://github.com/user-attachments/assets/40a1ccc7-9207-4b0d-8dcf-fdd7f8e557ff" />
 
-To import the csv files we made us of the import wizard: 
+To import the csv files we made use of the import wizard: 
 
 <img width="780" height="641" alt="Screenshot (1143)" src="https://github.com/user-attachments/assets/68fc8f3b-7d48-49cc-8489-57d3ae349a6c" />
 
